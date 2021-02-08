@@ -1413,14 +1413,14 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@neo-one/cli-common-node@2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/cli-common-node/-/cli-common-node-2.7.2-preview4.tgz#eed7395ef3bbfe84f0afc7fbf806301316bb57de"
-  integrity sha512-IVLGcr+GfHef3DkSbnv3hpwWOXSAIiQ3vvDRrYSlBiKyOA76QZreZZ4JwTCAfFLKyZl+J6JMwSWZyHYvVITekQ==
+"@neo-one/cli-common-node@2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/cli-common-node/-/cli-common-node-2.7.2-preview4.1.tgz#d48e56ba8007b7e39a1b0bb4514110dcd934e528"
+  integrity sha512-FBjfJSNv1J2zV6yaHZ8l4shBAAQktGyehdvWA9DT0I2NxBazDXEEH2PSwOInPtNDgBXXVUXn35ue/lyUNqH8bw==
   dependencies:
-    "@neo-one/cli-common" "3.0.1-preview4"
-    "@neo-one/client-core" "3.1.0-preview4"
-    "@neo-one/client-full-core" "3.0.1-preview4"
+    "@neo-one/cli-common" "3.0.1-preview4.1"
+    "@neo-one/client-core" "3.1.0-preview4.1"
+    "@neo-one/client-full-core" "3.0.1-preview4.1"
     "@types/lodash" "^4.14.138"
     cosmiconfig "^6.0.0"
     fs-extra "^8.1.0"
@@ -1430,43 +1430,43 @@
     ts-node "^8.4.1"
     tslib "^1.10.0"
 
-"@neo-one/cli-common@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/cli-common/-/cli-common-3.0.1-preview4.tgz#439c6919ae2379771fe4508edc6de45bf0813898"
-  integrity sha512-enB6fVnC4UMlFjIj6sH1kDk+7v6ZLdcFB9umTZSYzPRVZzG3FLoAfYEVT7RfJxOaB5yipjUJ4S8+P1hLjES5/A==
+"@neo-one/cli-common@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/cli-common/-/cli-common-3.0.1-preview4.1.tgz#307d6ba2530d48681254cc82856e5ad3392a287a"
+  integrity sha512-Em16rBLRNs+RasRNsibCkff3Re/qeDDIv47khE/CX4jWUV7danUkrz+ZSX4HcduE028gORdUKju8UUWV/+v9xQ==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-core" "3.1.0-preview4"
-    "@neo-one/client-full-core" "3.0.1-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-core" "3.1.0-preview4.1"
+    "@neo-one/client-full-core" "3.0.1-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     bignumber.js "^9.0.0"
     tslib "^1.10.0"
 
-"@neo-one/cli@^3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/cli/-/cli-3.0.1-preview4.tgz#e61e77bff395650c3df143d4bf872a3d1d7b554f"
-  integrity sha512-VM/xjKPhBCesliJBu0i+vgYlw8saWunEgc+fsQO+TEsvmTPJ/kz7nStkjIuGZvtqJihITenVrrN9YNMUze0nSg==
+"@neo-one/cli@^3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/cli/-/cli-3.0.1-preview4.1.tgz#804298e43a34e51bbcb856068b973c857753b77d"
+  integrity sha512-iGWlGEfLW3obedmIxaPQZK5l9it8l3UqUvUXHGjVjEEuEFcwML0KVtem7ULueHVNxFCWxz8O98jQcoV/60rqUQ==
   dependencies:
     "@babel/core" "^7.6.2"
     "@babel/register" "^7.5.5"
-    "@neo-one/cli-common" "3.0.1-preview4"
-    "@neo-one/cli-common-node" "2.7.2-preview4"
-    "@neo-one/client" "3.0.1-preview4"
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-core" "3.1.0-preview4"
-    "@neo-one/client-full" "2.7.2-preview4"
-    "@neo-one/client-full-core" "3.0.1-preview4"
-    "@neo-one/client-switch" "3.0.1-preview4"
+    "@neo-one/cli-common" "3.0.1-preview4.1"
+    "@neo-one/cli-common-node" "2.7.2-preview4.1"
+    "@neo-one/client" "3.0.1-preview4.1"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-core" "3.1.0-preview4.1"
+    "@neo-one/client-full" "2.7.2-preview4.1"
+    "@neo-one/client-full-core" "3.0.1-preview4.1"
+    "@neo-one/client-switch" "3.0.1-preview4.1"
     "@neo-one/logger" "^2.6.1"
     "@neo-one/logger-config" "^2.6.1"
-    "@neo-one/node" "3.1.0-preview4"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/node-neo-settings" "3.0.1-preview4"
-    "@neo-one/smart-contract-codegen" "2.7.2-preview4"
-    "@neo-one/smart-contract-compiler" "3.0.1-preview4"
-    "@neo-one/smart-contract-compiler-node" "2.7.2-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
-    "@neo-one/utils-node" "2.6.3-preview4"
+    "@neo-one/node" "3.1.0-preview4.1"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/node-neo-settings" "3.0.1-preview4.1"
+    "@neo-one/smart-contract-codegen" "2.7.2-preview4.1"
+    "@neo-one/smart-contract-compiler" "3.0.1-preview4.1"
+    "@neo-one/smart-contract-compiler-node" "2.7.2-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
+    "@neo-one/utils-node" "2.6.3-preview4.1"
     "@types/listr" "^0.14.2"
     "@types/yargs" "^13.0.3"
     bignumber.js "^9.0.0"
@@ -1487,13 +1487,13 @@
     typescript "3.9.5"
     yargs "^14.2.0"
 
-"@neo-one/client-common@3.1.0-preview4", "@neo-one/client-common@^3.1.0-preview4":
-  version "3.1.0-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/client-common/-/client-common-3.1.0-preview4.tgz#ee2249af3b719a7fa1a8c222750ffdd2fbb1d7de"
-  integrity sha512-RI3ZjuOnlfvSc/ho52C42U2Pa1f0Qcy7qqpkg5BC6Og6ApTIqGaYWFbRp/SfxHnbp0ZyWtxi0jl9BRnc3oFytQ==
+"@neo-one/client-common@3.1.0-preview4.1", "@neo-one/client-common@^3.1.0-preview4.1":
+  version "3.1.0-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-common/-/client-common-3.1.0-preview4.1.tgz#ee470486a755458630acb01711ebdd584beca272"
+  integrity sha512-yETrHMST+zyd2ml1aPge1VF+skjhvaMwnBcpkBNSlyvawKeCcKiTAjhydrquOaz6ThiRM8COXAqkCWWtODLKxw==
   dependencies:
     "@neo-one/ec-key" "^0.1.0"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@types/bn.js" "^4.11.5"
     bignumber.js "^9.0.0"
     bn.js "^5.0.0"
@@ -1509,14 +1509,14 @@
     tslib "^1.10.0"
     wif "^2.0.6"
 
-"@neo-one/client-core@3.1.0-preview4":
-  version "3.1.0-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/client-core/-/client-core-3.1.0-preview4.tgz#b25d683f26b4a525446da91dcfa2231480c41e6a"
-  integrity sha512-4a8YmRcLAMt4wDXG011QMFU6H65O9fsgtIaOUTeKUA2D/chpM/zhztSp9ZXnYxY/f18cVt2e3BANi5yD+WQLfQ==
+"@neo-one/client-core@3.1.0-preview4.1":
+  version "3.1.0-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-core/-/client-core-3.1.0-preview4.1.tgz#b9f7573fa6ccf77f80705eb36b0850a964ce8bae"
+  integrity sha512-YhnH+w0LKsTRfZFKc2RXpxXcCy3mv8GcsT5yK7aZWk3GjLLWcGGUI9qhKh3b54Gotb56+K26yjElvpb9ePVUJw==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-switch" "3.0.1-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-switch" "3.0.1-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@reactivex/ix-es2015-cjs" "^2.5.3"
     "@reactivex/ix-esnext-esm" "^2.5.3"
     "@types/bn.js" "^4.11.5"
@@ -1532,47 +1532,47 @@
     tapable "^1.1.3"
     tslib "^1.10.0"
 
-"@neo-one/client-full-common@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/client-full-common/-/client-full-common-3.0.1-preview4.tgz#a9700f397b90fe9f25f0f1876e80c1eb15cb0e5d"
-  integrity sha512-UwO17T1O6lGC5zeibXnJtuJEXyPav/OBbasLn4N53hqNvqwU5HzW1fQMdmiMA0ZYTn1idXRQ7eV4RPbgTW/7Bw==
+"@neo-one/client-full-common@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-full-common/-/client-full-common-3.0.1-preview4.1.tgz#af8690e407961d5aed9dd53f719715ce9dc6972f"
+  integrity sha512-yJtVEL3RMwl8nKnfcnFggEnWX92Z8SsXG9+q8ZHU8BtfbvS/BBb8LRiPxmPXLaASEvnJhvV2OW2ZO0kIMOwB1Q==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     tslib "^1.10.0"
 
-"@neo-one/client-full-core@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/client-full-core/-/client-full-core-3.0.1-preview4.tgz#18c693632879d70089e00502149cc0b5db584ed1"
-  integrity sha512-1+cU+utn6xBreNlr1dRpM0LJCGIFFY9REfCoJ0mpV5Pzh6AwZX/6S0rEtYGyMDwMqD5T4ZrrdFd061H6u3s6FA==
+"@neo-one/client-full-core@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-full-core/-/client-full-core-3.0.1-preview4.1.tgz#7d32dc21feebc8fca6211edf0feff60c0c260fa6"
+  integrity sha512-eFAoiEiGlQxJFEjWbPYlbrPDC3qDcShW6bk02OiQoUzGGeM3/j/UU5mlDF23GXBE1zfIVavmpFLP+hJdruLKmw==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-core" "3.1.0-preview4"
-    "@neo-one/client-full-common" "3.0.1-preview4"
-    "@neo-one/client-switch" "3.0.1-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-core" "3.1.0-preview4.1"
+    "@neo-one/client-full-common" "3.0.1-preview4.1"
+    "@neo-one/client-switch" "3.0.1-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     bignumber.js "^9.0.0"
     lodash "^4.17.15"
     tslib "^1.10.0"
 
-"@neo-one/client-full@2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/client-full/-/client-full-2.7.2-preview4.tgz#a8f3aee613edbd876ae7ccd40cf788c5fc322157"
-  integrity sha512-cpA+GcMf2pbmOHW6XsRxCOoaSMuWhWUjDEbWmy7JFeQxZINg0DH7dMLZmSUjObyF93NJd5ejCX1QsOWLsgRQ5g==
+"@neo-one/client-full@2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-full/-/client-full-2.7.2-preview4.1.tgz#e78629dfc85d3d87b4e0f2806b01d2ecaf97fc2a"
+  integrity sha512-Yv+EsL28ZYbwwU1wOI1ZoUW6s3Hd0J0DlaSFOJOwuLd933GeaU9ivbHs5FI2nXGbSDfzdBK75aU0qXa2RXwyfA==
   dependencies:
-    "@neo-one/client" "3.0.1-preview4"
-    "@neo-one/client-full-core" "3.0.1-preview4"
+    "@neo-one/client" "3.0.1-preview4.1"
+    "@neo-one/client-full-core" "3.0.1-preview4.1"
 
-"@neo-one/client-switch@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/client-switch/-/client-switch-3.0.1-preview4.tgz#564a1c2d40847992cfc58ccf05da641a695fbf0a"
-  integrity sha512-3zPNFtqRmuI+IQ1++ONVaGvhPxFXMLnYiaDEYONwbDNdtGOH1QWwDmmbJ30ympQjGUUcrEungrZvHuxWCDbVcQ==
+"@neo-one/client-switch@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/client-switch/-/client-switch-3.0.1-preview4.1.tgz#3ec0047e3ac5a9e47b11c1a56eda3761584828f3"
+  integrity sha512-JyrjC+VEVtNz+KfZJgeWgWVmLRLJFJrVVDwcpn2HqgQ5gbnn02onF+/aLGyrOdD9B9zdFSnNkxBQVqcKiAiPxw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@ledgerhq/hw-transport-u2f" "^4.68.2"
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     lodash "^4.17.15"
     regenerator-runtime "^0.13.3"
     source-map "^0.7.3"
@@ -1580,13 +1580,13 @@
   optionalDependencies:
     "@ledgerhq/hw-transport-node-hid" "^4.68.2"
 
-"@neo-one/client@3.0.1-preview4", "@neo-one/client@^3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/client/-/client-3.0.1-preview4.tgz#9c318cd5c87f6b529047fcffa3f4bd12cad9b4d4"
-  integrity sha512-vuNHKLzgE3kXMm1yveZBC/WJ3f6Hukx/f/PkhUkkSfXCv2v27deH7H75o9j1kn9ugWmt7NFF7UgDglkC80I/jw==
+"@neo-one/client@3.0.1-preview4.1", "@neo-one/client@^3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/client/-/client-3.0.1-preview4.1.tgz#9ad35318297f4809a13452438edaa7cfbacbe662"
+  integrity sha512-Lu+sNEFwyjJWekjG3AswgPgfNU+afthN0J72KioigpwNRuvJdmJ3PfpqUrKm5GfPw8JCl4M6QaG2xHZOQJpWYQ==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-core" "3.1.0-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-core" "3.1.0-preview4.1"
 
 "@neo-one/ec-key@^0.1.0":
   version "0.1.0"
@@ -1603,14 +1603,14 @@
     edge-cs "1.2.1"
     nan "^2.14.0"
 
-"@neo-one/http-context@2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/http-context/-/http-context-2.7.2-preview4.tgz#a06cdd0ce6ed1b5b425a30b6fd92452d365637b7"
-  integrity sha512-CMYn0gCX6O02iWhvHUOUTKKt9J2cua4Luy5upzfyLrXVft7zqq0r6Zh/Bj58ZEgJwkH8GfwShrtStG335zTrhQ==
+"@neo-one/http-context@2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/http-context/-/http-context-2.7.2-preview4.1.tgz#d37310c50b9cf35cdb6e2267f968d078fac9a042"
+  integrity sha512-foLVRB+6lYwSx75gU/MCAGxzBbMmJbORt7pcNByeNte30dqADnVvcdq3ykRcH+OHTx3HBcwBPZoTD7w7+408eg==
   dependencies:
-    "@neo-one/client-switch" "3.0.1-preview4"
+    "@neo-one/client-switch" "3.0.1-preview4.1"
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@types/koa" "^2.0.49"
     koa "^2.7.0"
     tslib "^1.10.0"
@@ -1648,30 +1648,30 @@
     pino-pretty "^3.2.1"
     tslib "^1.10.0"
 
-"@neo-one/node-blockchain@3.1.0-preview4":
-  version "3.1.0-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-blockchain/-/node-blockchain-3.1.0-preview4.tgz#fa1bdc8c7f53ec6b67d742bc2fb6fd5c7255e8ad"
-  integrity sha512-5vtrcbePeACIENjQzsvVT4fjye8kBOgQ7UkZ1j8FEiTislE5EdhPeH/mKiwpnzdaz3G4jK2Nu7yN40VWKg4RAw==
+"@neo-one/node-blockchain@3.1.0-preview4.1":
+  version "3.1.0-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-blockchain/-/node-blockchain-3.1.0-preview4.1.tgz#5759c3838039faf548bae9de277650822582bed1"
+  integrity sha512-WDgGa7G7mTCfij9fLO3dCV1BbUX0XJRR2+FBtW3+RDC547MCvNxAzCcWCN1DOwR29qwM8TGRhP19EzXl4SFLjw==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     bn.js "^5.0.0"
     js-priority-queue "^0.1.5"
     lodash "^4.17.15"
     lru-cache "^5.0.0"
     rxjs "^6.5.3"
 
-"@neo-one/node-consensus@2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-consensus/-/node-consensus-2.7.2-preview4.tgz#6ede5db7955e0a18a268a4ed215ff9c09858c4a0"
-  integrity sha512-gUus+4P31n9yxdd8Pf6BS+dHf/qRLNavFEn0+4StFkVX+Ya/Z7cOLzGzTI6wit5G54A5wIxsD6Y7Jinegk/2Ig==
+"@neo-one/node-consensus@2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-consensus/-/node-consensus-2.7.2-preview4.1.tgz#85b44227243689997dda603457e02363bcd2bc17"
+  integrity sha512-1f8YgBrgWJv971vmhQK2drduetgLFZPyVlJWzo2gqY+tnO9b0EnAWwB+OX7i84oRBuWnXZCoZMGlp56PhsIlDg==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@reactivex/ix-es2015-cjs" "^2.5.3"
     "@reactivex/ix-esnext-esm" "^2.5.3"
     "@types/bn.js" "^4.11.5"
@@ -1680,33 +1680,33 @@
     lodash "^4.17.15"
     tslib "^1.10.0"
 
-"@neo-one/node-core@3.1.0-preview4":
-  version "3.1.0-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-core/-/node-core-3.1.0-preview4.tgz#aaa0026817d7f1954cd85408e11fdd4c62268311"
-  integrity sha512-G2cDKHBhE82HOTh4hHPBbNqwG8YyagWLjpS/f9WV+NR9+pSTMhkgUKQpsJ/IK1PtLGC/P4te8iz+McC7acQrTg==
+"@neo-one/node-core@3.1.0-preview4.1":
+  version "3.1.0-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-core/-/node-core-3.1.0-preview4.1.tgz#8c4d2b50850a0ed55236554cb5ec50357986bc80"
+  integrity sha512-+j7MwK1bm2JmO9MqcqrOKDy2OiE7XpRXwNpCfnMpqeeotXVmAWysZyu6QOdMXQzb8U9tcQXLDb8UVfu9cgcT3Q==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-full-common" "3.0.1-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-full-common" "3.0.1-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     bignumber.js "^9.0.0"
     bn.js "^5.0.0"
     lodash "^4.17.15"
     rxjs "^6.5.3"
     through "^2.3.8"
 
-"@neo-one/node-http-rpc@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-http-rpc/-/node-http-rpc-3.0.1-preview4.tgz#57168e0e0c5e9df2980d7814e13aad4ecdec7d74"
-  integrity sha512-ginfJeAiq7hp+B5idLwkbMTE8ZmQ6PPE/aa0+E/uyB8u4bsz3IgNpm2qM1NAddhOM/DZ6kW2lzr7yB1GfUx3bw==
+"@neo-one/node-http-rpc@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-http-rpc/-/node-http-rpc-3.0.1-preview4.1.tgz#794ac23f58ae77e04ef7e929e5a462f8d81d0f2b"
+  integrity sha512-nbVSExNc/OHypK2dB49yCh6mt4ik5wdQvwu67bXAXKGzv/kjdGbkK1wkuhIOxVsVWX5h8i/xmZtzFZtr6mcPSA==
   dependencies:
-    "@neo-one/cli-common-node" "2.7.2-preview4"
+    "@neo-one/cli-common-node" "2.7.2-preview4.1"
     "@neo-one/http" "^2.7.0"
-    "@neo-one/http-context" "2.7.2-preview4"
+    "@neo-one/http-context" "2.7.2-preview4.1"
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/node-native" "3.0.1-preview4"
-    "@neo-one/node-rpc-handler" "3.0.1-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/node-native" "3.0.1-preview4.1"
+    "@neo-one/node-rpc-handler" "3.0.1-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@types/koa" "^2.0.49"
     "@types/koa-compose" "^3.2.4"
     cross-fetch "^3.0.4"
@@ -1719,67 +1719,67 @@
     lodash "^4.17.15"
     tslib "^1.10.0"
 
-"@neo-one/node-native@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-native/-/node-native-3.0.1-preview4.tgz#f9fbac501ef027d724b2fa1c2089739acd51ead5"
-  integrity sha512-FrAonW/t2ijLzEcrndFHM8F9eUcrQASTQX0yf+xslnhns1kzS/sdKguquFwMRCeMFKOvOhXTolDxTnxaNTFAFg==
+"@neo-one/node-native@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-native/-/node-native-3.0.1-preview4.1.tgz#849ca18158c1af508819a334e6314a0b7929773b"
+  integrity sha512-Q61w88Q2hcEA4npsZonYOEMVz7kJRsWlzoyaC/Q6lMhLur1v1mk+2LyBkbxRsJJ1qkmnlbeEmFCiRJe8U/jSXA==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-full-common" "3.0.1-preview4"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-full-common" "3.0.1-preview4.1"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     bn.js "^5.0.0"
     lodash "^4.17.15"
     rxjs "^6.5.3"
 
-"@neo-one/node-neo-settings@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-neo-settings/-/node-neo-settings-3.0.1-preview4.tgz#2789b4d04b235f06c8673b020bc6ac8b09154144"
-  integrity sha512-MWivKeMkHpN7KdAluJXhtVVCaiCHAQxtZMoAFmI+4WRqkcMQ5ogBrbg+4fp0UyhHHtHMAVZQjoQr4DI5Zy1waw==
+"@neo-one/node-neo-settings@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-neo-settings/-/node-neo-settings-3.0.1-preview4.1.tgz#db5eb3b0a9cd191a2d0084c6566f1664b0528865"
+  integrity sha512-zsuWckxcrT2BNyadO9wbFLyCkiGB+8YlxOUxGPChfxAKaBwafp8KwbfA8XVPa+5HuWS0nnH72wZLzHXV89puww==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@types/bn.js" "^4.11.5"
     "@types/lodash" "^4.14.138"
     bn.js "^5.0.0"
     lodash "^4.17.15"
     tslib "^1.10.0"
 
-"@neo-one/node-network@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-network/-/node-network-3.0.1-preview4.tgz#c9848869e05796ab1057dd425c3fc7880de56395"
-  integrity sha512-CoXaKQ5SDT5E8B5Xe9NcOuI52F/mmcJzZUpq7A+eKeccYkyx2YhOROi8O/niR7+Vax5s8JAuWLNqhZNp2+TLbg==
+"@neo-one/node-network@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-network/-/node-network-3.0.1-preview4.1.tgz#89486c0aa7fee1f01918a65bc691338abdbbc916"
+  integrity sha512-O7xJJfeoDqTr5vttEzDP2wXjJH+Zvp6+A9/Xlk+/YRepzySX6cM8EZuvkN9lHh5HgYyMYNoNPGp203D0EeQtxw==
   dependencies:
-    "@neo-one/client-switch" "3.0.1-preview4"
+    "@neo-one/client-switch" "3.0.1-preview4.1"
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     lodash "^4.17.15"
     tslib "^1.10.0"
 
-"@neo-one/node-offline@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-offline/-/node-offline-3.0.1-preview4.tgz#a1a12d41eacf96835a051cd171750b73a0cd251d"
-  integrity sha512-F00Xh65z5QAbMEx5zKisnijZbLzAnRN2RdiPV96DvrouwI+Q2VdrCJE9FUwSwSBxcieKSxw6jEk6954FBDwCJg==
+"@neo-one/node-offline@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-offline/-/node-offline-3.0.1-preview4.1.tgz#5863067b13c46503198c3300606e852a518ed4ec"
+  integrity sha512-FOEkkr0kUBQwOKDJecGKVQE3Xq0YInIXFBFOLNRmFmjKEUT9rcVw4iYjPEUte+0QKkA7XiGvXENl0pWuKXlGEg==
   dependencies:
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     lodash "^4.17.15"
     tslib "^1.10.0"
 
-"@neo-one/node-protocol@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-protocol/-/node-protocol-3.0.1-preview4.tgz#107b07b1063ac3e24ebeee9d89e96afd2fee8e42"
-  integrity sha512-4HJdFfJ7mShH4zkr8N9TvQuvalOY6GgXkCxbxQYH+GwGG96U6RkdzUln18+PkVvauKmb5Ef1qxDwO91kjx/nEQ==
+"@neo-one/node-protocol@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-protocol/-/node-protocol-3.0.1-preview4.1.tgz#3cf634f5bf4164c1d7ebdd37bd6175d9a111d0c3"
+  integrity sha512-28dOHGf2+aW1JNVa2Y+gvzEBgcV5UwL45ob8QW2WDa41iCYVwSTLqzrRxBd9WTYIcTw6rxlQ4p+HG3WbmIbSvg==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-switch" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-switch" "3.0.1-preview4.1"
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/node-consensus" "2.7.2-preview4"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/node-consensus" "2.7.2-preview4.1"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@types/bloom-filter" "^0.2.0"
     "@types/bn.js" "^4.11.5"
     "@types/ip-address" "^5.8.2"
@@ -1793,41 +1793,41 @@
     lz4 "0.6.3"
     tslib "^1.10.0"
 
-"@neo-one/node-rpc-handler@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-rpc-handler/-/node-rpc-handler-3.0.1-preview4.tgz#ecec4d3c5f8bd7cde6da77be1eded230574d7bba"
-  integrity sha512-CRnpSqzAM+YrDNKIg8J0NpSC/wlriAVUaa38BFEH/ynwiAuaqu07CaGb13HZIQYgTCgMj6agLctoDe1cPCUkNg==
+"@neo-one/node-rpc-handler@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-rpc-handler/-/node-rpc-handler-3.0.1-preview4.1.tgz#73ce021fdda4d835255a7e5fb4013bb419349085"
+  integrity sha512-WdlqBEmEAjLuqJ1s1lUtl+iyOWU30d5O89JGZU+AlECsGxbMf/wmGxCtJ9R3Vii5H2lzYxfpH2HE7XK523x05A==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-switch" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-switch" "3.0.1-preview4.1"
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@types/bn.js" "^4.11.5"
     bn.js "^5.0.0"
     rxjs "^6.5.3"
     tslib "^1.10.0"
 
-"@neo-one/node-storage-common@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-storage-common/-/node-storage-common-3.0.1-preview4.tgz#a934f62cdf06a2e503f7ceec441a93a3154bcb81"
-  integrity sha512-Ff81KtCdRrRT/lntoYCBZ5OFtL8U/CIb+wpa9ngMJbQ5OSR2NDNcILejFhx7edeiwmjGdGj31+rG/PqxnV7N/w==
+"@neo-one/node-storage-common@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-storage-common/-/node-storage-common-3.0.1-preview4.1.tgz#5b6e9d202b1da47367685c4961a3c79e0acf1051"
+  integrity sha512-dJYlQjcTCUYzIk9IPjG0ELPD6R88PzWDwJ2qYq+1X8310MWpIaT2mNzLT3rCU1JojaGB74j11Ohi8t7b1nEXxA==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     bn.js "^5.0.0"
     tslib "^1.10.0"
 
-"@neo-one/node-storage-levelup@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-storage-levelup/-/node-storage-levelup-3.0.1-preview4.tgz#d30bc6c7fca1ac7f62b54c5d34f21eab020ebc30"
-  integrity sha512-EFB4L/05vUKR1uxKPQTobBbT5iUwNK8CvWjMY9lEXHc5vlTH7CRFdnrOnMzKgfvmr3kGbIqsZJRyvvKq9Nxz7A==
+"@neo-one/node-storage-levelup@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-storage-levelup/-/node-storage-levelup-3.0.1-preview4.1.tgz#0ad75e0a47ab92ddd3e7ad532191f5c6f864a135"
+  integrity sha512-TxMEMj6UB+tGPFdnuX4TqL90nhKinq4Zjs6OM21G2uOjXCS5aOPhp0ZP9xY7Ery7U+WbbT/B4ueUljthsgj/8Q==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/node-storage-common" "3.0.1-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/node-storage-common" "3.0.1-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@types/abstract-leveldown" "^5.0.1"
     "@types/levelup" "^3.1.1"
     abstract-leveldown "^6.0.3"
@@ -1836,34 +1836,34 @@
     rxjs "^6.5.3"
     tslib "^1.10.0"
 
-"@neo-one/node-vm@3.1.0-preview4":
-  version "3.1.0-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node-vm/-/node-vm-3.1.0-preview4.tgz#745538032036638a9d6296ae764d7447eac99b31"
-  integrity sha512-oljOV+YKOy0GMlMTDkCpGIL9e6yW4u2bAHpQoLK9G0wGKKA6WoVgew0CjY5kwsSa1FMn19OIkbFe+Ty4uoqoIQ==
+"@neo-one/node-vm@3.1.0-preview4.1":
+  version "3.1.0-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node-vm/-/node-vm-3.1.0-preview4.1.tgz#d12a949b3d4d2088f669c8cf0f27ff4c40d1b0ed"
+  integrity sha512-hlgHAgl5V+7OFmnJ6b471BVgph8hFFLv8oZ9Kugt8AzmhLRSgM1JCBdYnhv2jrYP381ICJupa/yTo+bc6o2zJw==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
     "@neo-one/edge" "^15.0.0"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     bn.js "^5.0.0"
 
-"@neo-one/node@3.1.0-preview4":
-  version "3.1.0-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/node/-/node-3.1.0-preview4.tgz#1cdb5afe26d7b8c7caa568eeaf16ffe4873fa1e2"
-  integrity sha512-oZzSnnSGU09z/tS3NqJ6qRZSERAV4F1vn3LjAU0sdqPhBw8RIzNHMr0GTUG4IUB7yzRMeq1uM4e+OANS7zogCA==
+"@neo-one/node@3.1.0-preview4.1":
+  version "3.1.0-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/node/-/node-3.1.0-preview4.1.tgz#d009e0afb5e627adaf07a7e709274aa944c0038e"
+  integrity sha512-tV/QCudy8lLWOs6VJmVjmvHgvdsMVlHM2whXbKO458Ar1SVhHFM39vyZfWbtDvdUBOkv+2rxkDfK/2tzrRrQ1g==
   dependencies:
-    "@neo-one/client-switch" "3.0.1-preview4"
+    "@neo-one/client-switch" "3.0.1-preview4.1"
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/node-blockchain" "3.1.0-preview4"
-    "@neo-one/node-core" "3.1.0-preview4"
-    "@neo-one/node-http-rpc" "3.0.1-preview4"
-    "@neo-one/node-native" "3.0.1-preview4"
-    "@neo-one/node-network" "3.0.1-preview4"
-    "@neo-one/node-offline" "3.0.1-preview4"
-    "@neo-one/node-protocol" "3.0.1-preview4"
-    "@neo-one/node-storage-levelup" "3.0.1-preview4"
-    "@neo-one/node-vm" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/node-blockchain" "3.1.0-preview4.1"
+    "@neo-one/node-core" "3.1.0-preview4.1"
+    "@neo-one/node-http-rpc" "3.0.1-preview4.1"
+    "@neo-one/node-native" "3.0.1-preview4.1"
+    "@neo-one/node-network" "3.0.1-preview4.1"
+    "@neo-one/node-offline" "3.0.1-preview4.1"
+    "@neo-one/node-protocol" "3.0.1-preview4.1"
+    "@neo-one/node-storage-levelup" "3.0.1-preview4.1"
+    "@neo-one/node-vm" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@types/abstract-leveldown" "^5.0.1"
     abstract-leveldown "^6.0.3"
     fs-extra "^8.1.0"
@@ -1873,48 +1873,48 @@
     rxjs "^6.5.3"
     tslib "^1.10.0"
 
-"@neo-one/smart-contract-codegen@2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-codegen/-/smart-contract-codegen-2.7.2-preview4.tgz#dce2b0bfe1e81afee15ed7517949499f835ac5a1"
-  integrity sha512-VpGVFU8jXHpjMStrDuah16N+tcNKRZ8DECqGrLER1EX1REndYe24HzP4GdXpSRe/AV0Xzd7tBVDWzXl0Vd/vvA==
+"@neo-one/smart-contract-codegen@2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-codegen/-/smart-contract-codegen-2.7.2-preview4.1.tgz#3eeb59d9329aa82c4d79d07686d555c3c997b68e"
+  integrity sha512-JK4nI33T/ZI5CGrHLaMcxahChdmQZlMLf+w7pgvq0fpa3x55um2Vqd2NAOTufmQ+q7Nf4r0nSblJYPx3mUF8rQ==
   dependencies:
-    "@neo-one/cli-common" "3.0.1-preview4"
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-core" "3.1.0-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/cli-common" "3.0.1-preview4.1"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-core" "3.1.0-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     lodash "^4.17.15"
     prettier "^2.0.1"
     safe-stable-stringify "^1.1.0"
     source-map "^0.7.3"
     tslib "^1.10.0"
 
-"@neo-one/smart-contract-compiler-node@2.7.2-preview4", "@neo-one/smart-contract-compiler-node@^2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-compiler-node/-/smart-contract-compiler-node-2.7.2-preview4.tgz#7e15381eacbc63f5b6d77dab7b7819a2c0f2de1c"
-  integrity sha512-98sQ4iHRM78jJxIc9LhHwzMBhgp7uvn+mGcJuRH017heKTjmBsexvR6ugPz2x/K/5fCJ0dk/MppmC/LC1r6k/A==
+"@neo-one/smart-contract-compiler-node@2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-compiler-node/-/smart-contract-compiler-node-2.7.2-preview4.1.tgz#3d927a53ca5eda3257d70f17841be90623253d56"
+  integrity sha512-Syigs1P0EUDfy8u0iPu4u6x5gIswxfAhIhKHfm1R2a44Q8PJjkPi7PKMlzwR/+/Aq3ZE+StAy+ASlkZPZj3d7g==
   dependencies:
-    "@neo-one/smart-contract" "2.7.1-preview4"
-    "@neo-one/smart-contract-lib" "2.7.2-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/smart-contract" "2.7.1-preview4.1"
+    "@neo-one/smart-contract-lib" "2.7.2-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     app-root-dir "^1.0.2"
     glob "^7.1.4"
     tslib "^1.10.0"
     typescript "3.9.5"
 
-"@neo-one/smart-contract-compiler@3.0.1-preview4":
-  version "3.0.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-compiler/-/smart-contract-compiler-3.0.1-preview4.tgz#13f28ed02fb54947550cdb7ad2559f97b70741b9"
-  integrity sha512-f0CA7GlfJn7BdTP08dZKIvPPl/+wR6k671es3SjaUdF4KUeHCs2XGRpWdPxzFElQ10NmR4gi357XFJZ9Tvjedg==
+"@neo-one/smart-contract-compiler@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-compiler/-/smart-contract-compiler-3.0.1-preview4.1.tgz#8af57bea03e6d15e1453966f8e6d912adee569bb"
+  integrity sha512-2O01cmFMSidhRBZ6IZWHxLzib/M1GUBGXrBtURtULgaPki7EPCHrQCci3CcQRa/MgACewhaUE0dez4d4B829BQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-core" "3.1.0-preview4"
-    "@neo-one/client-full-common" "3.0.1-preview4"
-    "@neo-one/client-full-core" "3.0.1-preview4"
-    "@neo-one/smart-contract" "2.7.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-core" "3.1.0-preview4.1"
+    "@neo-one/client-full-common" "3.0.1-preview4.1"
+    "@neo-one/client-full-core" "3.0.1-preview4.1"
+    "@neo-one/smart-contract" "2.7.1-preview4.1"
     "@neo-one/ts-utils" "^2.6.1"
-    "@neo-one/typescript-concatenator" "2.6.3-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/typescript-concatenator" "2.6.3-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     "@types/bn.js" "^4.11.5"
     bn.js "^5.0.0"
     lodash "^4.17.15"
@@ -1923,57 +1923,57 @@
     tslib "^1.10.0"
     typescript "3.9.5"
 
-"@neo-one/smart-contract-lib@2.7.2-preview4", "@neo-one/smart-contract-lib@^2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-lib/-/smart-contract-lib-2.7.2-preview4.tgz#9ea514be3946d1624999a53f3e34d8350461deec"
-  integrity sha512-9yglbAVPO9+tm6WlWhYmHKGD/0yjMovdv8C9pFzGcv7DL/+Kol1wbOlOfaxV99QgRkvyPkDlwYRgVc2lyE44IQ==
+"@neo-one/smart-contract-lib@2.7.2-preview4.1", "@neo-one/smart-contract-lib@^2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-lib/-/smart-contract-lib-2.7.2-preview4.1.tgz#6a3af0cb6b3de1a620ad8c0b14d3f79e2825d588"
+  integrity sha512-a27LFJSKC5Y1kSj/xK5Xp59QhI7nslp+fnkRuaQHu/ESZ/a98JKFZTfKgkaQ/i7Mba1mRKoFe6AXzs+/PLkp/Q==
   dependencies:
-    "@neo-one/smart-contract" "2.7.1-preview4"
+    "@neo-one/smart-contract" "2.7.1-preview4.1"
 
-"@neo-one/smart-contract-test-common@2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-test-common/-/smart-contract-test-common-2.7.2-preview4.tgz#9a2a44d12b5c59c16b385def604f38940ff5418e"
-  integrity sha512-7tZ9UEp+/I1jM2x6UJ676ry8soWc/te/s6aTyBBH+w10ic0wrHXfqLtsjd0xrZdGQS9nqdB/CLLziPcDu3qNOQ==
+"@neo-one/smart-contract-test-common@2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-test-common/-/smart-contract-test-common-2.7.2-preview4.1.tgz#1dbf6f8ef4bf5b45937d08aa3e308ad57fb59ce1"
+  integrity sha512-TdYatBNfiYFkc+GA7PjpB+/KZ4YCLF7Mpd/pm5yLF+S1kUcq2dmZCf0Y7eaDRoUM3zKSzvAEe5EDprEL7k1+4g==
   dependencies:
-    "@neo-one/cli-common" "3.0.1-preview4"
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-core" "3.1.0-preview4"
-    "@neo-one/client-full-core" "3.0.1-preview4"
+    "@neo-one/cli-common" "3.0.1-preview4.1"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-core" "3.1.0-preview4.1"
+    "@neo-one/client-full-core" "3.0.1-preview4.1"
     "@neo-one/logger" "^2.6.1"
-    "@neo-one/smart-contract-compiler" "3.0.1-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/smart-contract-compiler" "3.0.1-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     bignumber.js "^9.0.0"
     tslib "^1.10.0"
 
-"@neo-one/smart-contract-test@^2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-test/-/smart-contract-test-2.7.2-preview4.tgz#41717f9457b3945baa4445f9ce6c429f693f46dc"
-  integrity sha512-ARmGBUYVsLWSmqUZ0z2LpQpFttiUxj2KXzBhXIo2c//TLTjV//DS+ZDyZ4B424zrlUjixkbrC2NTkOuVLVBf2A==
+"@neo-one/smart-contract-test@^2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-test/-/smart-contract-test-2.7.2-preview4.1.tgz#ad2f714b090bc48c3a508d37e07199ad9b139aca"
+  integrity sha512-iRnJd45VPxiUlbs+28EimZX83/59LjnHfmj3dR2Mdt4kMUXpiBp6a3XU+j+dnlqMQIZDeQ9j5asCr+7/RpshqQ==
   dependencies:
-    "@neo-one/client-common" "3.1.0-preview4"
-    "@neo-one/client-core" "3.1.0-preview4"
-    "@neo-one/node" "3.1.0-preview4"
-    "@neo-one/node-neo-settings" "3.0.1-preview4"
-    "@neo-one/smart-contract-compiler-node" "2.7.2-preview4"
-    "@neo-one/smart-contract-test-common" "2.7.2-preview4"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/client-common" "3.1.0-preview4.1"
+    "@neo-one/client-core" "3.1.0-preview4.1"
+    "@neo-one/node" "3.1.0-preview4.1"
+    "@neo-one/node-neo-settings" "3.0.1-preview4.1"
+    "@neo-one/smart-contract-compiler-node" "2.7.2-preview4.1"
+    "@neo-one/smart-contract-test-common" "2.7.2-preview4.1"
+    "@neo-one/utils" "3.0.1-preview4.1"
     lodash "^4.17.15"
     memdown "^5.0.0"
     tslib "^1.10.0"
 
-"@neo-one/smart-contract-typescript-plugin@^2.7.2-preview4":
-  version "2.7.2-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-typescript-plugin/-/smart-contract-typescript-plugin-2.7.2-preview4.tgz#1a5833f218682f7bc2eae39fbb69503cbcc9c565"
-  integrity sha512-Gd2squYIpPrwBKfXaAMKM43o11f8NZ5gRkjh98dh1IzsYzMYajcpFP6UWr0lWEJ1lpNPGq3xVOr95U8yE3pnhg==
+"@neo-one/smart-contract-typescript-plugin@^2.7.2-preview4.1":
+  version "2.7.2-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract-typescript-plugin/-/smart-contract-typescript-plugin-2.7.2-preview4.1.tgz#6e96a68b604c0495a5840b0c29784037ddcbf0bb"
+  integrity sha512-AA3KzcBGCvs/GZ5i4cZY7ZP2okPYxqzIyvzgwc/0uj4AEd9BBldp1+hwUwD9zkDTf+Mx2vC1UMUSaZrXzGe+pw==
   dependencies:
-    "@neo-one/smart-contract-compiler" "3.0.1-preview4"
-    "@neo-one/smart-contract-compiler-node" "2.7.2-preview4"
+    "@neo-one/smart-contract-compiler" "3.0.1-preview4.1"
+    "@neo-one/smart-contract-compiler-node" "2.7.2-preview4.1"
     typescript "3.9.5"
 
-"@neo-one/smart-contract@2.7.1-preview4", "@neo-one/smart-contract@^2.7.1-preview4":
-  version "2.7.1-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract/-/smart-contract-2.7.1-preview4.tgz#439cebe2baf111c403032f2a1dd2fb2c12688419"
-  integrity sha512-UlQ68CDzWtzWiTVinbKiwrqz6Fgws98noWMM5FD9/j+aydRnCOnFjgDbeWZHjhZ1cqXhzOdc5Ancj8M+WlL6oQ==
+"@neo-one/smart-contract@2.7.1-preview4.1", "@neo-one/smart-contract@^2.7.1-preview4.1":
+  version "2.7.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/smart-contract/-/smart-contract-2.7.1-preview4.1.tgz#6e56cbb301939fc4a98a5f2b29dce7ac984d3bb2"
+  integrity sha512-D58CRT5tMmSnsl7fSY2h/VwESWPZEwLld/LToVY4O2sN/uaQHUKv9PnxwynVW9c9VQif9x2DOhAthlTxyF7pSw==
 
 "@neo-one/ts-utils@^2.6.1":
   version "2.6.1"
@@ -1985,19 +1985,19 @@
     tslib "^1.10.0"
     typescript "3.9.5"
 
-"@neo-one/typescript-concatenator@2.6.3-preview4":
-  version "2.6.3-preview4"
-  resolved "https://registry.yarnpkg.com/@neo-one/typescript-concatenator/-/typescript-concatenator-2.6.3-preview4.tgz#85198935d9c523687edec3eaa0bdb19686362a2b"
-  integrity sha512-Y3TfBK0sBrb36twQOW3huUhPDMu5HS41R45CD2K2jZPgUnGAvsqiyg4EdqlZtddbqdyNuQocPx58E0Um/wMOig==
+"@neo-one/typescript-concatenator@2.6.3-preview4.1":
+  version "2.6.3-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/typescript-concatenator/-/typescript-concatenator-2.6.3-preview4.1.tgz#ca98dd625a5a5272d024340950780b4a7807287e"
+  integrity sha512-x2Bqr5cWKaW8oVjNLEEWVaKO7jo6FdZ0qAJoFPdFqI4kFhCT0ftR93N05kxduXzXWbRO/vpL5Pr7vOK+mvdjxA==
   dependencies:
     "@neo-one/ts-utils" "^2.6.1"
-    "@neo-one/utils" "3.0.1-preview4"
+    "@neo-one/utils" "3.0.1-preview4.1"
     lodash "^4.17.15"
     toposort "^2.0.2"
     tslib "^1.10.0"
     typescript "3.9.5"
 
-"@neo-one/utils-node@2.6.3-preview4":
+"@neo-one/utils-node@2.6.3-preview4.1":
   version "2.6.3-preview4"
   resolved "https://registry.yarnpkg.com/@neo-one/utils-node/-/utils-node-2.6.3-preview4.tgz#536d64fb5d897e8d468336a3bc85c1358451fd50"
   integrity sha512-uk+wUikbYbtrqX022udTxApQ0LNJsReYMefH0cfV37pA+sxnkqHVVpuAQmWzus4NCn0SslqV7ScIG1LuRNvHMQ==
@@ -2015,6 +2015,16 @@
   version "3.0.1-preview4"
   resolved "https://registry.yarnpkg.com/@neo-one/utils/-/utils-3.0.1-preview4.tgz#a9684d7e65d6254cf2fe37cadc689e74ba4e185c"
   integrity sha512-AcQ38/DwqO0MUYLE3U/8NMAOzQAq8IQBiujz3zqEDeTiGsCIVMAlVpIBBnMUMO3OSqAUJI2SeZDJCPd7GFPbeQ==
+  dependencies:
+    "@types/node" "^12.7.7"
+    lodash "^4.17.15"
+    rxjs "^6.5.3"
+    tslib "^1.10.0"
+
+"@neo-one/utils@3.0.1-preview4.1":
+  version "3.0.1-preview4.1"
+  resolved "https://registry.yarnpkg.com/@neo-one/utils/-/utils-3.0.1-preview4.1.tgz#19d73d363d6be3c94fc93778c6828f67a9a85247"
+  integrity sha512-LhYFYK/GbDaNGxiTorQi5fWcg/ItvdvCslYqJz3Vkgl2mLPiUnC4DVTnwP6tivkQLVe2X0w695/SLqoyY4n15w==
   dependencies:
     "@types/node" "^12.7.7"
     lodash "^4.17.15"

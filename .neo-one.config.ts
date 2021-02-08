@@ -4,6 +4,10 @@ export default {
   contracts: {
     // NEO•ONE will look for smart contracts in this directory.
     path: 'neo-one/contracts',
+    json: true,
+    opcodes: true,
+    debug: true,
+    avm: true,
   },
   artifacts: {
     // NEO•ONE will store build and deployment artifacts that should be checked in to vcs in this directory.
